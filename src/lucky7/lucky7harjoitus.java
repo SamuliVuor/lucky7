@@ -9,7 +9,7 @@ public class lucky7harjoitus {
 		Scanner in = new Scanner(System.in);
 		
 
-		int raha = 1;
+		int raha = 5;
 		String vastaus;
 		
 		do {
@@ -52,11 +52,11 @@ public class lucky7harjoitus {
 		}
 			}
 			else if (vastaus.equals("n")) {
-				System.out.println("Lopetetaan peli, sinulle jäi " + raha + " euroa");
+				System.out.println("Lopetetaan peli, sinulle jäi " + raha + " euroa.");
 			}
 			else 
 			System.out.println("Virhe! Vastaa y jos haluat jatkaa pelia ja vastaa n jos haluat lopettaa pelin");
-		} while (raha >= 0 || !vastaus.equals("n")); {
+		} while (raha != 0 && !vastaus.equals("n")); {
 		if (raha == 0) {
 			System.out.println("Sinulta loppui rahat!");
 		}
