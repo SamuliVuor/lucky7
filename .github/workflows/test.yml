@@ -55,4 +55,4 @@ jobs:
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            Gongratulations on your first pull request!
+            Congratulations on your first pull request!
