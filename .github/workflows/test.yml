@@ -55,6 +55,4 @@ jobs:
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            🎉 Thanks for opening your first pull request! We’ll review it soon.
-
-            })
+            Gongratulations on your first pull request!
