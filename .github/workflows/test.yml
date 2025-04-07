@@ -42,7 +42,7 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body: |
-            This issue is now resolved. Thank you for your contribution!
+            This issue is now resolved.
 
   comment_on_first_pr:
     if: github.event_name == 'pull_request' && github.event.action == 'opened'
