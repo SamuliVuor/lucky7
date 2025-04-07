@@ -1,3 +1,5 @@
+name: Label & Comment on Issues and PRs
+
 on:
   issues:
     types: [opened, reopened, closed]
@@ -68,6 +70,6 @@ jobs:
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                body: Congratulations on your first pull request!
+                body: 'Congratulations on your first pull request!'
               });
             }
